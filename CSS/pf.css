@@ -1,11 +1,23 @@
+@import "hi.css"; /* hi */
+@import "inter.css"; /*Interest*/
+@import "inf.css";  /* Information */
+@import "port.css";  /* Portfolio */
+@import "cont.css"; /* Contact */
+@import "day-night.css"; /* 다크모드 */
+
 html{
     scroll-behavior: smooth;
 }
 
+
 body{
     margin: auto;
     padding: auto;
-    overflow-x: hidden
+    overflow-x: hidden;
+
+    width:100vw; 
+    height:100vh
+
 }
 
 .menu-bar{
@@ -26,21 +38,18 @@ li{
     list-style:none;
     float: left;
     position: relative;
-    margin: 5px 30px;
-    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.3)
-
-    
-    
+    margin: 0.5vw 3vw;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 
 .main-page{
-    padding: 50px 0px 0px 0px;
+    padding: 5vw 0px 0px 0px;
     text-align: center;
     font-family: serif;
-    font-size: 65px;
+    font-size: 6.5vw;
     font-weight: bold;
-     
+
 }
 
 .initial{  
@@ -67,7 +76,7 @@ li{
 
 .hi:hover:before{
     content: 'Hi';
-    font-size: 80px;
+    font-size: 10vw;
     color: #d8b3f6;
     
 }
@@ -85,7 +94,7 @@ li{
 
 .information:hover:before{
     content: 'informAtion';
-    font-size: 80px;
+    font-size: 10vw;
     color: #7f89d7;
     
 }
@@ -103,7 +112,7 @@ li{
 
 .portfolio:hover:before{
     content: 'poRtfolio';
-    font-size: 80px;
+    font-size: 10vw;
     color: #90dbf1; 
     
 }
@@ -120,7 +129,7 @@ li{
 
 .interest:hover:before{
     content: 'Interest';
-    font-size: 80px;
+    font-size: 10vw;
     color: #78d8ad;
 }
 
@@ -136,17 +145,7 @@ li{
 
 .contact:hover:before{
     content: 'coNtact';
-    font-size: 80px;
+    font-size: 10vw;
     color: #d2de84;
     
 }
-
-
-
-
-
-
-
-
-
-    
