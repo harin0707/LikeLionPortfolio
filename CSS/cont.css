@@ -1,14 +1,14 @@
 .contact-page{
     background-color: #d2de84;
-    padding: 30px 100px 30px 100px;
+    padding: 5vw 20vw 5vw 10vw;
     position: static;
-    height: 200px;
+    height: 20vw;
 }
 
 
 .contact-header{
     font-family: serif;
-    font-size: 50px;
+    font-size: 5vw;
     color: white;
     text-shadow: 0 0 7px #d8dfab, 0 0 10px #fff, 0 0 1px #fff, 0 0 42px #d8dfab,
     0 0 82px #d8dfab, 0 0 9px #d8dfab, 0 0 12px #d8dfab, 0 0 151px #d8dfab;
@@ -25,12 +25,12 @@
 
 .contact-text-i li{
     list-style: none;
-    margin: 0 15px;
+    margin: 0 2vw;
 }
 
 .contact-text-i li .fab{
-    font-size: 30px;
-    line-height: 60px;
+    font-size: 3vw;
+    line-height: 6vw;
     transition: .3s;
     color: #000;
 }
@@ -42,14 +42,15 @@
 .contact-text-i li a{
     position: relative;
     display: block;
-    width: 60px;
-    height: 60px;
+    width: 6vw;
+    height: 6vw;
     border-radius: 50%;
     background-color: #fff;
     text-align: center;
     transition: .6s;
     box-shadow: 0 5px 4px rgba(0,0,0,.5);
 }
+
 
 .contact-text-i li a:hover{
     transform: translate(0, -10%);
@@ -66,7 +67,7 @@
 }
 
 .email{
-    width:35px;
-    height: 25px;
+    width:3.5vw;
+    height: 2.5vw;
 }
 
